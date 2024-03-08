@@ -75,10 +75,10 @@ module.exports = {
         historyApiFallback: {
             disableDotRule: true,
             rewrites: [
-                {from: '/', to: '/index.html'},
+                // {from: '/', to: '/index.html'},
                 {from: '/checkout', to: '/checkout.html'},
                 {from: '/homepage', to: '/homepage.html'},
-                {from: '/product-page', to: '/product-page.html'},
+                {from: '/product', to: '/product-page.html'},
             ],
         },
     }

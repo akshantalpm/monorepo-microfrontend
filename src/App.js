@@ -1,10 +1,14 @@
+import './output.css';
 import './App.css';
-import {lazy} from "react";
+import {lazy, useEffect, useState} from "react";
 const HomePage =  lazy(() => require('@micro/homepage/dist'));
 
 const App = () => {
+
   return (
-   <HomePage />
+    <div>
+      <HomePage />
+    </div>
   );
 };
 
